@@ -8,7 +8,5 @@ write up of various services:
 - [SQS](./sqs.md)
 - [S3](./s3.md)
 - [DynamoDB](./dynamodb.md)
-
-## TODO
-
 - [ElastiCache](./elasticache.md) - managed Redis or Memchached service
+- [Prometheus](./prometheus.md)
