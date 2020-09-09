@@ -2,11 +2,11 @@
 
 write up of various services:
 
-- [Lambda](./lambda.md)
-- [Glue](./glue.md)
-- [Sagemaker](./sagemaker.md)
-- [SQS](./sqs.md)
-- [S3](./s3.md)
-- [DynamoDB](./dynamodb.md)
-- [ElastiCache](./elasticache.md) - managed Redis or Memchached service
-- [Prometheus](./prometheus.md)
+- [Lambda](./docs/lambda.md)
+- [Glue](./docs/glue.md)
+- [Sagemaker](./docs/sagemaker.md)
+- [SQS](./docs/sqs.md)
+- [S3](./docs/s3.md)
+- [DynamoDB](./docs/dynamodb.md)
+- [ElastiCache](./docs/elasticache.md) - managed Redis or Memchached service
+- [Prometheus](./docs/prometheus.md)
