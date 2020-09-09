@@ -2,7 +2,8 @@
 
 ## intro
 
-Can develop directly in AWS console. Small simple functions to handle "events".
+Can develop directly in AWS console or deploy a compiled package.
+Small simple functions to handle "events".
 Events are JSON requests of any predefined format.
 You only pay for the computation used when running the fucntion ie. pay nothing until the lambda is run.
 
@@ -25,3 +26,15 @@ def lambda_handler(event, context):
 
 can be invoked synchonously ie. make request and wait for response
 or asynchronously ie. make request and lambda handles the output
+
+- for async calls, lambda has an internal queueing system with a configurable numbers of retries and retention periods.
+
+## other feature
+
+- supports environment variables
+- supports multi-threading
+- stateless
+
+## limitations
+
+lambda has [certain limitations](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)
