@@ -1,0 +1,27 @@
+# AWS lambda
+
+## intro
+
+Can develop directly in AWS console. Small simple functions to handle "events".
+Events are JSON requests of any predefined format.
+You only pay for the computation used when running the fucntion ie. pay nothing until the lambda is run.
+
+AWS hello world example below.
+
+```python
+import json
+
+def lambda_handler(event, context):
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }
+
+```
+
+`context` is an object supplied by AWS which "*provides methods and properties that provide information about the invocation, function, and execution environment.*"
+
+## invoking
+
+can be invoked synchonously ie. make request and wait for response
+or asynchronously ie. make request and lambda handles the output
