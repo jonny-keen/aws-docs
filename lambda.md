@@ -2,10 +2,10 @@
 
 ## intro
 
-Can develop directly in AWS console or deploy a compiled package.
-Small simple functions to handle "events".
-Events are JSON requests of any predefined format.
-You only pay for the computation used when running the fucntion ie. pay nothing until the lambda is run.
+- Can develop directly in AWS console or deploy a compiled package.
+- Small simple functions to handle "events".
+- Events are JSON requests of any predefined format.
+- You only pay for the computation used when running the fucntion ie. pay nothing until the lambda is run.
 
 AWS hello world example below.
 
@@ -24,8 +24,8 @@ def lambda_handler(event, context):
 
 ## invoking
 
-can be invoked synchonously ie. make request and wait for response
-or asynchronously ie. make request and lambda handles the output
+- can be invoked synchonously ie. make request and wait for response
+- or asynchronously ie. make request and lambda handles the output
 
 - for async calls, lambda has an internal queueing system with a configurable numbers of retries and retention periods.
 
