@@ -33,8 +33,15 @@ Bunch of subservices including, but not limited to:
 
 ## alternatives
 
-[Amazon Forecast](https://aws.amazon.com/forecast/) is a fully managed forecasting ML tool. Used for time series data.
-You don't manage the ML models, Forecast automatically does all the algo selection, training, accuracy metrics and forecasting.
-All you need to do is upload historic data to S3 and link it to Forecast.
+### [Amazon Forecast](https://aws.amazon.com/forecast/)
+
+- A fully managed forecasting ML tool. Used for time series data.
+- You don't manage the ML models, Forecast automatically does all the algo selection, training, accuracy metrics and forecasting.
+- All you need to do is upload historic data to S3 and link it to Forecast.
 
 **No visibility into the code and less customisable but may be easier/faster to set up and use.**
+
+### [Codebuild + Lambda](https://aws.amazon.com/blogs/machine-learning/deploying-machine-learning-models-as-serverless-apis/)
+
+- can deploy serverless ML models using the architecture in the above link
+- however, this solution doesn't include how to build or train ML models
