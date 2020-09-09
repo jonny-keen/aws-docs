@@ -5,7 +5,6 @@
 - Can develop directly in AWS console or deploy a compiled package.
 - Small simple functions to handle "events".
 - Events are JSON requests of any predefined format.
-- You only pay for the computation used when running the fucntion ie. pay nothing until the lambda is run.
 
 AWS hello world example below.
 
@@ -34,6 +33,10 @@ def lambda_handler(event, context):
 - supports environment variables
 - supports multi-threading
 - stateless
+
+## pricing
+
+You only pay for the computation used when running the function ie. pay nothing until the lambda is run.
 
 ## limitations
 

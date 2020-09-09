@@ -26,6 +26,11 @@ Bunch of subservices including, but not limited to:
 - Sagemaker Autopilot - used for automating building and training ML models, but with complete visibility into the code (I presume this means you can manually edit the code as well)
 - Sagemaker Debugger - debug and profile the training runs
 
+## pricing
+
+- Building, training, and deploying ML models is billed by the second
+- Sagemaker Studio is free to use, you only pay for the resources you generate when running stuff
+
 ## alternatives
 
 [Amazon Forecast](https://aws.amazon.com/forecast/) is a fully managed forecasting ML tool. Used for time series data.
