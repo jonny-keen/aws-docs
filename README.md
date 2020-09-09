@@ -11,4 +11,4 @@ write up of various services:
 
 ## TODO
 
-- prometheus/redis
+- [ElastiCache](./elasticache.md) - managed Redis or Memchached service
