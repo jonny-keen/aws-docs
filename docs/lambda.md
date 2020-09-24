@@ -33,6 +33,7 @@ def lambda_handler(event, context):
 - supports environment variables
 - supports multi-threading
 - stateless
+- can publish multiple versions to allow versioning
 
 ## pricing
 
