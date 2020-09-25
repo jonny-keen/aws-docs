@@ -1,5 +1,7 @@
 # AWS docs
 
+## Services
+
 write up of various services:
 
 - [Lambda](./docs/lambda.md)
@@ -11,3 +13,7 @@ write up of various services:
 - [ElastiCache](./docs/elasticache.md) - managed Redis or Memchached service
 - [Prometheus](./docs/prometheus.md)
 - [Prometheus](./docs/step-functions.md)
+
+## Python
+
+- [boto3](./python/boto3.md)
