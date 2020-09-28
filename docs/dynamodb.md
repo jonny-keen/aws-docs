@@ -18,6 +18,11 @@
 - reserved capacity is the max you think you'll need ie fixed costs
 - on demand is based on actual usage ie no upper limit, but also no throttling
 
+## caching
+
+- DynamoDB ships with its own caching mechanism: [**Amazon DynamoDB Accelerator (DAX)**](https://aws.amazon.com/dynamodb/dax/)
+- pushes latency down to microseconds
+
 ## alternatives
 
 - see [S3](./s3.md) and [this good comparison with s3](https://serverless.pub/s3-or-dynamodb/)
