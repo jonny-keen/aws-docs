@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T15:55:32.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="j4A1UUlPVNbG_63FRStn" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-06T16:11:28.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="gmdVmOqPxnY0t7uB2PpB" version="13.7.7" type="github">
   <diagram id="IkWc2ZGjf57PD3JHDBwn" name="Page-1">
     <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,11 +189,10 @@
         <mxCell id="z_9ZXNSyzefPM_XCyMbZ-79" value="Calc VaR and PNL" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z_9ZXNSyzefPM_XCyMbZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="1" source="z_9ZXNSyzefPM_XCyMbZ-83" target="z_9ZXNSyzefPM_XCyMbZ-6" edge="1">
+        <mxCell id="z_9ZXNSyzefPM_XCyMbZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="z_9ZXNSyzefPM_XCyMbZ-83" target="z_9ZXNSyzefPM_XCyMbZ-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="420" y="1010" />
-              <mxPoint x="100" y="1010" />
+              <mxPoint x="100" y="930" />
               <mxPoint x="100" y="210" />
             </Array>
           </mxGeometry>
