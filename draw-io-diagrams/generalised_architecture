@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T15:06:28.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Be34wb0nZGxs87NVnccp" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T10:25:05.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="bHKLNIxRwjbCC5CiC69J" version="14.2.4" type="github">
   <diagram id="Vf9AiiPR7Wviq1b5NcDG" name="Page-1">
-    <mxGraphModel dx="1182" dy="-95" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1970" dy="393" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MWNhhg4DmTbggFdNVIW7-157" value="Some persistance for managing data.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;labelBackgroundColor=none;fillColor=none;fontSize=15;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="730" y="1299.94" width="340" height="200" as="geometry" />
+          <mxGeometry x="730" y="1299.94" width="270" height="200" as="geometry" />
         </mxCell>
         <mxCell id="MWNhhg4DmTbggFdNVIW7-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="MWNhhg4DmTbggFdNVIW7-75" target="MWNhhg4DmTbggFdNVIW7-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -209,22 +209,13 @@
             <mxPoint x="-28.010000000000005" y="-15.299999999999999" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWNhhg4DmTbggFdNVIW7-145" value="Dynamo" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=15;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;labelPosition=center;" parent="1" vertex="1">
-          <mxGeometry x="740" y="1389.94" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="MWNhhg4DmTbggFdNVIW7-146" value="DAX" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3334B9;strokeColor=none;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=15;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.dynamodb_dax;labelPosition=center;" parent="1" vertex="1">
-          <mxGeometry x="840" y="1389.94" width="78" height="72" as="geometry" />
-        </mxCell>
         <mxCell id="MWNhhg4DmTbggFdNVIW7-147" value="Elasticache" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=15;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elasticache;labelPosition=center;" parent="1" vertex="1">
-          <mxGeometry x="970" y="1389.94" width="78" height="78" as="geometry" />
+          <mxGeometry x="830" y="1389.94" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="MWNhhg4DmTbggFdNVIW7-148" value="OR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1419.94" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="MWNhhg4DmTbggFdNVIW7-149" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=15;" parent="1" source="MWNhhg4DmTbggFdNVIW7-145" target="MWNhhg4DmTbggFdNVIW7-146" edge="1">
+        <mxCell id="MWNhhg4DmTbggFdNVIW7-149" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=15;" parent="1" source="MWNhhg4DmTbggFdNVIW7-145" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="860" y="1639.94" as="sourcePoint" />
-            <mxPoint x="910" y="1589.94" as="targetPoint" />
+            <mxPoint x="840.0525186129184" y="1427.1084244416124" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MWNhhg4DmTbggFdNVIW7-151" value="Grafana" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/grafana-128.png;fontSize=15;" parent="1" vertex="1">
@@ -242,7 +233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MWNhhg4DmTbggFdNVIW7-154" value="On Premises&lt;br style=&quot;font-size: 15px;&quot;&gt;SQL server" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3334B9;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=15;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_sql_server_instance;" parent="1" vertex="1">
-          <mxGeometry x="860" y="1599.94" width="78" height="78" as="geometry" />
+          <mxGeometry x="830" y="1599.94" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="MWNhhg4DmTbggFdNVIW7-155" value="SQL to NoSql &lt;br style=&quot;font-size: 15px;&quot;&gt;synchronisation?" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;fontSize=15;" parent="1" source="MWNhhg4DmTbggFdNVIW7-154" target="MWNhhg4DmTbggFdNVIW7-157" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -258,8 +249,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="23y6dVjpXbi9V2l3sJmg-1" value="Portfolio step" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=15;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;labelPosition=center;" vertex="1" parent="1">
+        <mxCell id="23y6dVjpXbi9V2l3sJmg-1" value="Portfolio step" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=15;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;labelPosition=center;" parent="1" vertex="1">
           <mxGeometry x="370" y="1161" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="svtF-C3y_Gm0Q1qBG7p2-1" value="VPC" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="850" width="770" height="730" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
